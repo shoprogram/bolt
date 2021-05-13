@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descroption" content="This is my portfolio site.">
+    <meta name="description" content="This is my portfolio site.">
     <meta name="keywords" content="bolt, bootstrap, portfolio">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -13,100 +13,91 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bolt - Free Bootstrap 3 Theme</title>
   </head>
+
   <body>
-    <header>
-      <div class="header-inner">
-        <div class="header-icon">
+
+    <header class="header">
+        <div class="header__icon">
           <i class="fas fa-bolt"></i>
         </div>
-        <div class="header-contact">
-          <a href="" class="contact">Contact</a>
+        <div class="header__button">
+          <a href="" class="header__button_item">Contact</a>
         </div>
-      </div>
     </header>
-    <main class="bolt-main">
-      <div class="title-content">
-        <h1 class="title title-space">Bolt Theme</h1>
-        <p class="title-text title-space">FREE BOOTSTRAP THEMES</p>
+
+    <main>
+      <div class="theme">
+        <h1 class="theme__title">Bolt Theme</h1>
+        <p class="theme__text">FREE BOOTSTRAP THEMES</p>
       </div>
+
       <section class="description">
-        <div class="description-inner">
-          <div class="img-box description-space">
-            <img src="./img/iphone.png" alt="">
-          </div>
-          <div class="top-content description-space">
-            <h3 class="top-title top-space">WHAT WE CAN DO?</h3>
-            <p class="top-text top-space">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          </div>
+        <img src="./img/iphone.png" alt="" class="description__img">
+        <div class="description__text-content">
+          <h3 class="description__title">WHAT WE CAN DO?</h3>
+          <p class="description__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
       </section>
-      <article class="work-garary">
-        <div class="garary-inner">
-          <div class="garary-title">
-            <h2>OUR LATEST WORK</h2>
-          </div>
-          <div class="garary-img-content">
-            <a href="" class="garary-img">
-              <img src="./img/01.jpg" alt="">
-            </a>
-            <a href="" class="garary-img">
-              <img src="./img/02.jpg" alt="">
-            </a>
-            <a href="" class="garary-img">
-              <img src="./img/03.jpg" alt="">
-            </a>
-            <a href="" class="garary-img">
-              <img src="./img/04.jpg" alt="">
-            </a>
-            <a href="" class="garary-img">
-              <img src="./img/05.jpg" alt="">
-            </a>
-            <a href="" class="garary-img">
-              <img src="./img/06.jpg" alt="">
-            </a>
-          </div>
-          <div class="garary-bottom-content">
-            <div class="garary-text bottom-space">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</div>
-            <a href="" class="garary-email bottom-space">Email Me!</a>
-          </div>
+      
+      <article class="gallery">
+        <h2 class="gallery__title">OUR LATEST WORK</h2>
+        <div class="gallery__img-contents">
+          <a href="" class="gallery-img">
+            <img src="./img/01.jpg" alt="">
+          </a>
+          <a href="" class="gallery__img-contents_item">
+            <img src="./img/02.jpg" alt="">
+          </a>
+          <a href="" class="gallery__img-contents_item">
+            <img src="./img/03.jpg" alt="">
+          </a>
+          <a href="" class="gallery__img-contents_item">
+            <img src="./img/04.jpg" alt="">
+          </a>
+          <a href="" class="gallery__img-contents_item">
+            <img src="./img/05.jpg" alt="">
+          </a>
+          <a href="" class="gallery__img-contents_item">
+            <img src="./img/06.jpg" alt="">
+          </a>
+        </div>
+        <div class="gallery__text-contents">
+          <div class="gallery__text-contents_item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</div>
+          <a href="" class="gallery__text-contents_email">Email Me!</a>
         </div>
       </article>
-      <section class="slill-wrapper">
-        <div class="skill-inner">
-          <div class="skill-title">
-            <h2>OUR SKILLS</h2>
+
+      <section class="skill">
+        <h2 class="skill__title">OUR SKILLS</h2>
+        <div class="skill__container">
+          <div class="skill__cotainer_item JS ">
+            <img src="./img/circle_01.png" alt="">
           </div>
-          <div class="skill-container">
-            <div class="skill-content JS ">
-              <img src="./img/circle_01.png" alt="">
-            </div>
-            <div class="skill-content BS">
-              <img src="./img/circle_02.png" alt="">
-            </div>
-            <div class="skill-content WP">
-              <img src="./img/circle_03.png" alt="">
-            </div>
-            <div class="skill-content PS">
-              <img src="./img/circle_04.png" alt="">
-            </div>
+          <div class="skill__cotainer_item BS">
+            <img src="./img/circle_02.png" alt="">
+          </div>
+          <div class="skill__cotainer_item WP">
+            <img src="./img/circle_03.png" alt="">
+          </div>
+          <div class="skill__cotainer_item PS">
+            <img src="./img/circle_04.png" alt="">
           </div>
         </div>
       </section>
-      <nav>
-        <div class="SNS-inner">
-          <div class="SNS-content">
-            <a href="" class="SNS-icon facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="" class="SNS-icon globe"><i class="fas fa-globe"></i></a>
-            <a href="" class="SNS-icon twitter"><i class="fab fa-twitter"></i></a>
-            <a href="" class="SNS-icon mail"><i class="fas fa-envelope"></i></a>
-          </div>
+
+      <nav class="nav">
+        <div class="nav__contents">
+          <a href="" class="nav__contents_icon facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="" class="nav__contents_icon globe"><i class="fas fa-globe"></i></a>
+          <a href="" class="nav__contents_icon twitter"><i class="fab fa-twitter"></i></a>
+          <a href="" class="nav__contents_icon mail"><i class="fas fa-envelope"></i></a>
         </div>
       </nav>
+
     </main>
-    <footer>
-      <div class="footer-inner">
-        <p>Crafted with♥by BlackTie.co.</p>
-      </div>
+    <footer class="footer">
+      <p class="footer__text">Crafted with♥by BlackTie.co.</p>
     </footer>
+
   </body>
 </html>
