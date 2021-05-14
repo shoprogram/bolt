@@ -292,21 +292,21 @@ body {
     margin: 0;
   }
 
-  .gallery__img-contents_item:nth-child(3n) {
-    margin-bottom: 80px;
+  .gallery__img-contents_item:nth-child(4n) {
+    margin-top: 80px;
   }
 
   .gallery__text-contents {
-    padding: 0;
+    margin-top: 80px;
   }
 
   .gallery__text-contents_item {
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 40px;
   }
-
+  
   .gallery__text-contents_email {
+    margin-top: 40px;
     margin-left: 0;
   }
 
@@ -393,6 +393,10 @@ body {
   /* main 5th */
   .nav {
     padding: 50px 15px;
+  }
+
+  .nav__contents_list {
+    width: 100%;
   }
 
   .nav__contents_icon {
