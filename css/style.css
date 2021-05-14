@@ -91,7 +91,7 @@ body {
 
 .description__inner {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   padding-top: 50px;
 }
 
@@ -100,14 +100,10 @@ body {
   color: #fff;
 }
 
-.description__img {
-  margin-right: 150px;
-}
-
 .description__text-content {
   text-align: center;
   align-items: center;
-  padding-top: 30px;
+  margin-top: 30px;
   width: 650px;
 }
 
@@ -131,11 +127,8 @@ body {
   font-weight: lighter;
 }
 
-.gallery__title {
-  margin-bottom: 40px;
-}
-
 .gallery__img-contents {
+  margin-top: 40px;
   font-size: 0;
 }
 
@@ -161,7 +154,7 @@ body {
 
 .gallery__text-contents {
   text-align: center;
-  padding-top: 90px;
+  margin-top: 90px;
 }
 
 .gallery__text-contents_item {
@@ -171,7 +164,6 @@ body {
   font-size: 23px;
   line-height: 30px;
   font-weight: lighter;
-  opacity: 0.9;
 }
 
 .gallery__text-contents_email {
@@ -260,8 +252,7 @@ body {
 
 .footer__text {
   color: #fff;
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
 }
 
 
@@ -282,6 +273,10 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 25px;
+  }
+
+  .description__img {
+    margin-right: 0;
   }
 
   .description__text-content {
@@ -306,7 +301,7 @@ body {
   }
 
   .gallery__text-contents_item {
-    width: 97%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 40px;
   }
@@ -328,12 +323,81 @@ body {
 }
 
 /* SP style */
-/* 
+
 @media screen and (max-width:767px) {
   
-
-
-  .description__text-content {
-    
+  /* header */
+  .header__button_item {
+    display: none;
   }
-} */
+
+  .header__hamburger-menu {
+    padding: 10px;
+    width: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .header__hamburger-item {
+    position: absolute;
+    width: 25px;
+    height: 1px;
+    top: 0;
+    right: 9px;
+    border: solid 1px #ddd;
+    background-color: #ddd;
+  }
+
+  .header__hamburger-item:nth-child(1) {
+    top: 11px;
+  }
+  .header__hamburger-item:nth-child(2) {
+    top: 18px;
+  }
+  .header__hamburger-item:nth-child(3) {
+    top: 25px;
+  }
+
+  /* main */
+  /* main 1st */
+  .theme {
+    padding: 160px 0 130px 0;
+  }
+
+  .theme__title {
+    font-size: 80px;
+  }
+
+  .theme__text {
+    font-size: 30px;
+  }
+
+  /* main 2nd */
+  .description__text-content {
+    width: 100%;
+  }
+
+  .description__text {
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  /* main 3rd */
+  /* 変化なし */
+
+  /* main 4th */
+  /* 変化なし */
+  
+  /* main 5th */
+  .nav {
+    padding: 50px 15px;
+  }
+
+  .nav__contents_icon {
+    padding: auto;
+    width: 100%;
+  }
+
+}
